@@ -1,7 +1,7 @@
 package com.sicnu.service;
 
-import com.digitaldeparturesystem.pojo.Student;
-import com.digitaldeparturesystem.response.ResponseResult;
+import com.sicnu.pojo.Student;
+import com.sicnu.response.ResponseResult;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 import javax.servlet.http.HttpServletResponse;

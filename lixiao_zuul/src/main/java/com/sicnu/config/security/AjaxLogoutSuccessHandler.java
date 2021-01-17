@@ -1,8 +1,10 @@
 package com.sicnu.config.security;
 
 import com.alibaba.fastjson.JSON;
+import com.sicnu.pojo.Clerk;
+import com.sicnu.pojo.Student;
 import com.sicnu.response.ResponseResult;
-import com.sicnu.utils.IpUtil;
+import com.sicnu.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;

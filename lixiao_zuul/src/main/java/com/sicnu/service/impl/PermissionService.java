@@ -1,13 +1,11 @@
 package com.sicnu.service.impl;
 
-import com.digitaldeparturesystem.pojo.Authorities;
-import com.digitaldeparturesystem.pojo.Clerk;
-import com.digitaldeparturesystem.pojo.Student;
-import com.digitaldeparturesystem.service.ISectorService;
-import com.digitaldeparturesystem.service.IStudentService;
-import com.digitaldeparturesystem.utils.*;
+import com.sicnu.pojo.Authorities;
+import com.sicnu.pojo.Clerk;
+import com.sicnu.pojo.Student;
 import com.sicnu.service.ISectorService;
 import com.sicnu.service.IStudentService;
+import com.sicnu.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

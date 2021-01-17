@@ -1,13 +1,12 @@
 package com.sicnu.service.impl;
 
-import com.digitaldeparturesystem.mapper.*;
-import com.digitaldeparturesystem.pojo.Refreshtoken;
-import com.digitaldeparturesystem.pojo.Role;
-import com.digitaldeparturesystem.pojo.Student;
-import com.digitaldeparturesystem.response.ResponseResult;
-import com.digitaldeparturesystem.response.ResponseStatus;
-import com.digitaldeparturesystem.service.IStudentService;
-import com.digitaldeparturesystem.utils.*;
+import com.sicnu.pojo.Refreshtoken;
+import com.sicnu.pojo.Role;
+import com.sicnu.pojo.Student;
+import com.sicnu.response.ResponseResult;
+import com.sicnu.response.ResponseStatus;
+import com.sicnu.service.IStudentService;
+import com.sicnu.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

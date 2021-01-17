@@ -83,6 +83,12 @@
             <version>1.2.36</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.sicnu</groupId>
+            <artifactId>lixiao_commons</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <!-- Spring Cloud -->

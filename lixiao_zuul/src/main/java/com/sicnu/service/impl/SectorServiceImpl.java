@@ -1,12 +1,12 @@
 package com.sicnu.service.impl;
 
-import com.digitaldeparturesystem.mapper.*;
-import com.digitaldeparturesystem.pojo.*;
-import com.digitaldeparturesystem.response.ResponseResult;
-import com.digitaldeparturesystem.response.ResponseStatus;
-import com.digitaldeparturesystem.service.ISectorService;
-import com.digitaldeparturesystem.utils.*;
-import com.google.gson.Gson;
+import com.sicnu.pojo.Authorities;
+import com.sicnu.pojo.Clerk;
+import com.sicnu.pojo.Refreshtoken;
+import com.sicnu.response.ResponseResult;
+import com.sicnu.response.ResponseStatus;
+import com.sicnu.service.ISectorService;
+import com.sicnu.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

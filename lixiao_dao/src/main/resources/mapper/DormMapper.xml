@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sicnu.mapper.DormMapper">
+
+    <!--查询寝室退寝状态-->
+    <select id="listStudentDormInfos" resultType="java.util.Map">
+        SELECT
+          s.stuID,
+          s.stuNumber,
+          s.stuName,
+          s.stuType,
+          s.stuDept,
+          d.dormName,
+          d.dormNumber
+          FROM
+           student s
+          LEFT JOIN dorm d
+          ON s.stuID=d.stuID
+          <where>
+              <if test="params.stuDept!=null and params.stuDept!=''">
+                  AND s.stuDept = #{params.stuDept}
+              </if>
+              <if test="params.stuType!=null and params.stuType!=''">
+                  AND s.stuType = #{params.stuType}
+              </if>
+              <if test="params.isLeave!=null and params.isLeave!=''">
+                  AND d.isLeave = #{params.isLeave}
+              </if>
+          </where>
+    </select>
+
+    <!--审核学生退寝情况-->
+    <update id="doCheckForDorm" parameterType="String" >
+        update dorm set isLeave=1 where stuID=(select stuID from student where stuNumber=#{stuNumber})
+    </update>
+
+   <!-- 根据学号获取学生退寝情况-->
+    <select id="getStudentByIdForDorm" parameterType="String" resultType="com.sicnu.pojo.DormInfo">
+        select
+         s.`stuNumber`,
+         s.`stuName`,
+         s.`stuDept`,
+         s.`stuType`,
+         d.`dormName`,
+         d.`dormNumber`,
+         d.`isLeave`
+        FROM
+        student s
+        LEFT JOIN dorm d
+        ON s.stuID = d.stuID
+        <where>
+            <if test="stuNumber!=null and stuId!=''">
+                AND s.`stuNumber` = #{stuNumber}
+            </if>
+        </where>
+
+    </select>
+
+    <!--查询所有学生退寝情况-->
+    <select id="listAllDorm" resultType="com.sicnu.pojo.DormInfo">
+        SELECT
+         s.`stuNumber`,
+         s.`stuName`,
+         s.`stuDept`,
+         s.`stuType`,
+         d.`dormName`,
+         d.`dormNumber`,
+         d.`isLeave`
+         FROM student s
+         LEFT JOIN dorm d
+         ON s.stuID = d.stuID
+    </select>
+
+    <!--查询某个学生是否存在-->
+    <select id="findStuByStuNumber" parameterType="String" resultType="com.sicnu.pojo.Student">
+        select * from student where stuNumber=#{stuNumber}
+    </select>
+
+    <!--dormPayList-->
+    <insert id="insertDormPay" parameterType="com.sicnu.pojo.DormPay">
+        insert into dormpay(dormpayID,stuID,detail,pay) values(#{dormpayID},#{stuID},#{detail},#{pay})
+    </insert>
+
+    <!--某学生后勤处详情-->
+    <select id="detailDorm" parameterType="String" resultType="java.util.Map">
+       SELECT dormID, isLeave, dormName, dormNumber,s.stuNumber
+         FROM dorm,student s WHERE dorm.stuID=(SELECT stuID FROM student WHERE stuNumber=#{stuNumber}) 
+         AND dorm.stuID=s.`stuID`;
+    </select>
+    
+    <!--往财务处打钱== 后勤处-->
+    <update id="updateFinanceDorm">
+         update finance set dormFine=#{total}
+         where finance.stuID=(select stuID from student where stuNumber=#{stuNumber})
+    </update>
+
+    <!--查询后勤处缴费明细-->
+    <select id="findDormPay" parameterType="String" resultType="com.sicnu.pojo.DormPay">
+         select * from dormpay where dormpay.stuID=(select stuID from student where stuNumber=#{stuNumber});
+    </select>
+
+    <!--查询finance表后勤处的应缴费-->
+    <select id="findSumDormpay" parameterType="String" resultType="double">
+        select dormFine from finance where stuID=(select stuID from student where stuNumber=#{stuNumber})
+    </select>
+
+    <!--向学生回复一卡通审核详情-->
+    <insert id="sendMessage" parameterType="com.sicnu.pojo.Message">
+        insert into message(messageID, sendID, title, content, messagedate, receiveID, msgStatus)
+        values(#{messageID}, #{sendID}, #{title}, #{content}, #{messagedate}, #{receiveID}, #{msgStatus})
+    </insert>
+
+    
+
+
+</mapper>
