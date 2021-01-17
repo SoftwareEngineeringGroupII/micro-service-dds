@@ -6,10 +6,10 @@
     <!--select查询语句-->
 
     <!--对象中的属性可以换直接取出来-->
-    <select id="showFormByStudent" parameterType="String" resultType="com.sicnu.pojo.Student">
+    <select id="showFormByStudent" parameterType="String" resultType="com.sicnu.pojo.Form">
         select * from student where stuID=#{stuID};
     </select>
-    <select id="showFormByProcess" parameterType="String" resultType="com.sicnu.pojo.Process">
+    <select id="showFormByProcess" parameterType="String" resultType="com.sicnu.pojo.Form">
         select * from process where stuID=#{stuID};
     </select>
 

@@ -31,7 +31,7 @@ public interface AuthoritiesMapper {
      * 插入权限
      * @param authorities
      */
-    void insertAuthority(Authorities authorities);
+    int insertAuthority(Authorities authorities);
 
     /**
      * 获取全部权限
@@ -50,13 +50,13 @@ public interface AuthoritiesMapper {
      * 更新权限
      * @param authority
      */
-    void updateAuthority(Authorities authority);
+    int updateAuthority(Authorities authority);
 
     /**
      * 删除权限
      * @param authorityId
      */
-    void deleteAuthorities(String authorityId);
+    int deleteAuthorities(String authorityId);
 
     /**
      * 通过姓名查找权限

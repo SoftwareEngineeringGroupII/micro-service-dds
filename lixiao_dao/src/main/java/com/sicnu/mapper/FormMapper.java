@@ -9,10 +9,7 @@ public interface FormMapper {
      * @return
      */
     Form showFormByStudent(String stuID);
+
     Form showFormByProcess(String stuID);
 
-    /**
-     * 打印表单
-     */
-    void printForm();
 }

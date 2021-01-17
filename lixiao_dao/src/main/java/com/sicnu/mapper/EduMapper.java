@@ -27,16 +27,16 @@ public interface EduMapper {
     EduInfo getStudentByIdForEdu(String stuNumber);
 
     //设置学生的离校进度表--一卡通状态
-    void setCardStatus(String stuNumber);
+    int setCardStatus(String stuNumber);
 
     //设置学生的离校进度表--财务状态
-    void setFinanceStatus(String stuNumber);
+    int setFinanceStatus(String stuNumber);
 
     //设置学生的离校进度表--图书馆状态
-    void setLibStatus(String stuNumber);
+    int setLibStatus(String stuNumber);
 
     //设置学生的离校进度表--后勤状态
-    void setDormStatus(String stuNumber);
+    int setDormStatus(String stuNumber);
 
     Map<String,Object> findProcess(String stuNumber);
 
@@ -54,21 +54,21 @@ public interface EduMapper {
    List<StuBasicInfo> exportAllStuBasicInfo();
 
 
-   void doEduMessage(String stuNumber);
+    int doEduMessage(String stuNumber);
 
-   void doCheckEdu(String stuNumber);
+    int doCheckEdu(String stuNumber);
 
-   void setProcessEdu(String stuNumber);
+    int setProcessEdu(String stuNumber);
 
     Map<String,Object> viewMessage(String stuNumber);
 
     Message findMessage(String stuNumber);
 
-    void setMessage1(@Param("stuNumber") String stuNumber, @Param("message") Message message);
+    int setMessage1(@Param("stuNumber") String stuNumber, @Param("message") Message message);
 
-    void setMessage(@Param("stuNumber") String stuNumber,@Param("content") String content,@Param("title") String title,@Param("time")Date time);
+    int setMessage(@Param("stuNumber") String stuNumber,@Param("content") String content,@Param("title") String title,@Param("time")Date time);
 
-    void setStuOutDate(@Param("stuNumber") String stuNumber,@Param("date") Date date);
+    int setStuOutDate(@Param("stuNumber") String stuNumber,@Param("date") Date date);
 
     String findStuCredit(String stuNumber);
 

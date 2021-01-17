@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <!--namespace=绑定一个对应的mapper接口-->
-<mapper namespace="com.sicnu.mapper.CheckcommitMapper">
+<mapper namespace="com.sicnu.mapper.CheckCommitMapper">
 
     <!--select查询语句-->
 
@@ -10,7 +10,7 @@
         insert into checkcommit (checkID,stuID,reason,commitdate,type)
         values(#{checkID},#{stuID},#{reason},#{commitdate},#{type});
     </insert>
-    <update id="updateCheckcommit" parameterType="java.lang.String">
+    <update id="updateCheckCommit" parameterType="java.lang.String">
         update checkcommit set
         `stuId` = #{stuId},
         `reason` = #{reason},

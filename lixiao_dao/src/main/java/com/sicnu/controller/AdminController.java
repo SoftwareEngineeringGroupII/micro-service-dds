@@ -2,17 +2,16 @@ package com.sicnu.controller;
 
 import com.sicnu.mapper.AdminMapper;
 import com.sicnu.pojo.Clerk;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
-@RequestMapping("/studentMapper")
+@RequestMapping("/adminMapper")
 public class AdminController {
 
+    @Resource
     private AdminMapper adminMapper;
     /**
      * 添加Clerk
@@ -20,7 +19,7 @@ public class AdminController {
      * @return
      */
     @PostMapping("/addClerk")
-    public int addClerk(Clerk clerk){
+    public int addClerk(@RequestParam("clerk") Clerk clerk){
         return adminMapper.addClerk(clerk);
     }
 
@@ -39,7 +38,7 @@ public class AdminController {
      * @param clerkId
      */
     @PostMapping("/deleteClerk")
-    public int deleteClerk(String clerkId){
+    public int deleteClerk(@RequestParam("clerkId") String clerkId){
         return adminMapper.deleteClerk(clerkId);
     }
 }

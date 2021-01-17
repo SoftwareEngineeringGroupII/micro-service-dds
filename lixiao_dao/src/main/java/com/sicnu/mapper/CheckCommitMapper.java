@@ -4,13 +4,13 @@ import com.sicnu.pojo.Checkcommit;
 
 import java.util.List;
 
-public interface CheckcommitMapper {
+public interface CheckCommitMapper {
     /**
      * 提交审核
      * @param checkcommit
      * @return
      */
-    void addCheckCommit(Checkcommit checkcommit);
+    int addCheckCommit(Checkcommit checkcommit);
 
     /**
      * 显示已提交审核
@@ -23,5 +23,5 @@ public interface CheckcommitMapper {
      * @param checkcommit
      * @return
      */
-    void updateCheckcommit(Checkcommit checkcommit);
+    int updateCheckCommit(Checkcommit checkcommit);
 }

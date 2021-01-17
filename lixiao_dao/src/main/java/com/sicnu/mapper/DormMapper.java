@@ -15,7 +15,7 @@ public interface DormMapper {
     List<Map<String,Object>> listStudentDormInfos(@Param("params") Map<String,String> params);
 
     //审核学生退寝情况
-    void doCheckForDorm(String stuNumber);
+    int doCheckForDorm(String stuNumber);
 
     //根据学号获取学生退寝情况
     DormInfo getStudentByIdForDorm(String stuNumber);
@@ -26,17 +26,17 @@ public interface DormMapper {
     //查询某个学生是否存在
     Student findStuByStuNumber(String stuNumber);
 
-    void insertDormPay(DormPay dormPay);
+    int insertDormPay(DormPay dormPay);
 
     Map<String,Object> detailDorm(String stuNumber);
 
-    void updateFinanceDorm(@Param("stuNumber") String stuNumber, @Param("total") Double total);
+    int updateFinanceDorm(@Param("stuNumber") String stuNumber, @Param("total") Double total);
 
     List<DormPay> findDormPay(String stuNumber);
 
     Double findSumDormpay(String stuNumber);
 
-    void sendMessage(Message message);
+    int sendMessage(Message message);
 
 
 }

@@ -17,7 +17,7 @@ public interface FinanceMapper {
     List<FinanceInfo> listStudentFinanceInfos(@Param("params")Map<String,String> params);
 
     //根据学号审核财务状态
-    void doCheckForFinance(String stuNum);
+    int doCheckForFinance(String stuNum);
 
 
     //查询已经审核的财务情况
@@ -38,9 +38,9 @@ public interface FinanceMapper {
 
     int findLibStatus(String stuNumber);
 
-    void sumExpense(String stuNumber);
+    int sumExpense(String stuNumber);
 
-    void setFine0(String stuNumber);
+    int setFine0(String stuNumber);
 
 
 
