@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/lixiao_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/lixiao_dao/pom.xml" />
         <option value="$PROJECT_DIR$/lixiao_zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/lixiao_commons/pom.xml" />
       </list>
     </option>
   </component>

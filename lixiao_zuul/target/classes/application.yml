@@ -7,8 +7,6 @@ spring:
   application:
     name: zuul-server
 
-# 网关配置/sector/card/studentId
-
 #配置Eureka
 eureka:
   instance:
@@ -18,9 +16,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
+# 网关配置
 zuul:
   routes:
     consumer-8005:
       strip-prefix: false
-      path: /sector/**
-      serviceId: consumer-8005
+      path: /sector/**  #配置请求url的映射路径
+      serviceId: consumer-8005 #根据serviceId自动从注册中心获取服务地址请求并转发
