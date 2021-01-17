@@ -10,19 +10,19 @@ public interface RoleMapper {
      * 添加角色
      * @param role
      */
-    void addRole(Role role);
+    int addRole(Role role);
 
     /**
      * 删除角色
      * @param roleId
      */
-    void deleteRole(String roleId);
+    int deleteRole(String roleId);
 
     /**
      * 更新角色
      * @param role
      */
-    void updateRole(Role role);
+    int updateRole(Role role);
 
     /**
      * 得到全部角色

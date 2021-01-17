@@ -12,5 +12,5 @@ public interface ProcessMapper {
      * 添加进程信息
      * @param process
      */
-    void addProcess(Process process);
+    int addProcess(Process process);
 }

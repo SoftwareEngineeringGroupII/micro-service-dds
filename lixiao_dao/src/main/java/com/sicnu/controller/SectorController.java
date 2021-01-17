@@ -2,16 +2,13 @@ package com.sicnu.controller;
 
 import com.sicnu.mapper.SectorMapper;
 import com.sicnu.pojo.Clerk;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/sectorMapper")
+@RequestMapping("/SectorMapper")
 public class SectorController {
 
     @Resource
@@ -24,7 +21,7 @@ public class SectorController {
      * @return
      */
     @PostMapping("/findOneByEmail")
-    public Clerk findOneByEmail(String email){
+    public Clerk findOneByEmail( String email){
         return sectorMapper.findOneByEmail(email);
     }
 

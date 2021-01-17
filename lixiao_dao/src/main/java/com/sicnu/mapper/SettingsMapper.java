@@ -6,5 +6,5 @@ public interface SettingsMapper {
 
     Settings findOneByKey(String key);
 
-    void addSetting(Settings settings);
+    int addSetting(Settings settings);
 }
