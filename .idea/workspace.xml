@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fc9db98-76f9-457f-ab9d-d49f148a4a02" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\mvn_repository" />
+        <option name="mavenHome" value="E:/Javaweb_resource/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="E:\Javaweb_resource\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1n8WJpAX7AooTANrpwTN8La6ga3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DigitalDepartureSystem" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sicnu.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\springboot\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\response" />
+      <recent name="E:\springboot\lixiaosys\lixiao_card\src\main\java\com\sicnu\response" />
+      <recent name="E:\springboot\lixiaosys\lixiao_consumer\src\main\java\com\sicnu\response" />
+      <recent name="E:\springboot\lixiaosys\lixiao_consumer\src\main\java\com\sicnu\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.LixiaoEurekaApplication">
+    <configuration name="LixiaoConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoDaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_dao" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoDaoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoDormApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_dorm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoDormApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoEduApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_edu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.edu.LixiaoEduApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoFinanceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_finance" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoFinanceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoLibraryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_library" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoLibraryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoNoticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_notice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoNoticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoStuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_stu" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoStuApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaoZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaoZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaosysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiaosys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaosysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LixiaosysCardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="lixiao_card" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaosysCardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fc9db98-76f9-457f-ab9d-d49f148a4a02" name="Default Changelist" comment="" />
+      <created>1610772129001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610772129001</updated>
+      <workItem from="1610772133688" duration="30198000" />
+      <workItem from="1610814017228" duration="83000" />
+      <workItem from="1610838076413" duration="3461000" />
+      <workItem from="1610844010043" duration="560000" />
+      <workItem from="1610844930588" duration="477000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1610840893681">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610840893681" />
+    <state x="430" y="208" width="421" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610777088592">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="430" y="208" width="421" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1610777088592" />
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610780564250">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1610780564250" />
+    <state width="845" height="261" key="GridCell.Tab.0.bottom" timestamp="1610841541410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="261" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state width="845" height="261" key="GridCell.Tab.0.center" timestamp="1610841541410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="261" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state width="845" height="261" key="GridCell.Tab.0.left" timestamp="1610841541410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="261" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state width="845" height="261" key="GridCell.Tab.0.right" timestamp="1610841541410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="261" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state width="845" height="261" key="GridCell.Tab.1.bottom" timestamp="1610841541410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="261" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state width="845" height="261" key="GridCell.Tab.1.center" timestamp="1610841541410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="261" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state width="845" height="261" key="GridCell.Tab.1.left" timestamp="1610841541410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="261" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state width="845" height="261" key="GridCell.Tab.1.right" timestamp="1610841541410">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="845" height="261" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1610777597800">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1610777597800" />
+    <state x="56" y="63" key="new project wizard" timestamp="1610783878521">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="56" y="63" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1610783878521" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1610805908717">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1610805908717" />
+  </component>
+</project>

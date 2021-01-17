@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lixiao_card/lixiao_card.iml" filepath="$PROJECT_DIR$/lixiao_card/lixiao_card.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_consumer/lixiao_consumer.iml" filepath="$PROJECT_DIR$/lixiao_consumer/lixiao_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_dao/lixiao_dao.iml" filepath="$PROJECT_DIR$/lixiao_dao/lixiao_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_dorm/lixiao_dorm.iml" filepath="$PROJECT_DIR$/lixiao_dorm/lixiao_dorm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_edu/lixiao_edu.iml" filepath="$PROJECT_DIR$/lixiao_edu/lixiao_edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_eureka/lixiao_eureka.iml" filepath="$PROJECT_DIR$/lixiao_eureka/lixiao_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_finance/lixiao_finance.iml" filepath="$PROJECT_DIR$/lixiao_finance/lixiao_finance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_library/lixiao_library.iml" filepath="$PROJECT_DIR$/lixiao_library/lixiao_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_notice/lixiao_notice.iml" filepath="$PROJECT_DIR$/lixiao_notice/lixiao_notice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_stu/lixiao_stu.iml" filepath="$PROJECT_DIR$/lixiao_stu/lixiao_stu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiao_zuul/lixiao_zuul.iml" filepath="$PROJECT_DIR$/lixiao_zuul/lixiao_zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lixiaosys.iml" filepath="$PROJECT_DIR$/lixiaosys.iml" />
+    </modules>
+  </component>
+</project>

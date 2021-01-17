@@ -1,0 +1,25 @@
+#项目端口
+server:
+  port: 9000
+
+#应用名称
+spring:
+  application:
+    name: zuul-server
+
+#配置Eureka
+eureka:
+  instance:
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}  #ip:port
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+# 网关配置
+zuul:
+  routes:
+    consumer-8005:
+      strip-prefix: false
+      path: /sector/**  #配置请求url的映射路径
+      serviceId: consumer-8005 #根据serviceId自动从注册中心获取服务地址请求并转发
