@@ -62,6 +62,27 @@
             <scope>provided</scope>
         </dependency>
 
+        <!--springSecurity  将密码改成秘文，保护用户账号,同时用于权限控制-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>2.3.1.RELEASE</version>
+        </dependency>
+
+        <!--JSON追加-->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
+        <!--JSON封装-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.36</version>
+        </dependency>
+
     </dependencies>
 
     <!-- Spring Cloud -->

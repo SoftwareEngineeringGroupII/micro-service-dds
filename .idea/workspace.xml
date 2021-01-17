@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fc9db98-76f9-457f-ab9d-d49f148a4a02" name="Default Changelist" comment="" />
+    <list default="true" id="9fc9db98-76f9-457f-ab9d-d49f148a4a02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/WebSpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAccessDeniedHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxLogoutSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/ISectorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/SectorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/utils/IpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/lixiao_card.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_card/lixiao_card.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/lixiao_zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/lixiao_zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,10 +61,12 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DigitalDepartureSystem" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -51,12 +75,15 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.sicnu.utils" />
+      <recent name="com.sicnu.service" />
+      <recent name="com.sicnu.config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\SE\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\service\impl" />
+      <recent name="F:\SE\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\service" />
+      <recent name="F:\SE\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\config" />
       <recent name="E:\springboot\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\response" />
       <recent name="E:\springboot\lixiaosys\lixiao_card\src\main\java\com\sicnu\response" />
-      <recent name="E:\springboot\lixiaosys\lixiao_consumer\src\main\java\com\sicnu\response" />
-      <recent name="E:\springboot\lixiaosys\lixiao_consumer\src\main\java\com\sicnu\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -166,7 +193,7 @@
       <workItem from="1610814017228" duration="83000" />
       <workItem from="1610838076413" duration="3461000" />
       <workItem from="1610844010043" duration="560000" />
-      <workItem from="1610844930588" duration="477000" />
+      <workItem from="1610844930588" duration="4527000" />
     </task>
     <servers />
   </component>
@@ -174,6 +201,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="99" key="#Project_Structure" timestamp="1610845886171">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="440" y="99" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1610845886171" />
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1610840893681">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -186,42 +217,58 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1610780564250" />
-    <state width="845" height="261" key="GridCell.Tab.0.bottom" timestamp="1610841541410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1610845552177">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1610845552177" />
+    <state width="1520" height="468" key="GridCell.Tab.0.bottom" timestamp="1610845620509">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="845" height="261" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="845" height="261" key="GridCell.Tab.0.center" timestamp="1610841541410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1520" height="468" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
+    <state width="1520" height="468" key="GridCell.Tab.0.center" timestamp="1610845620509">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="845" height="261" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="845" height="261" key="GridCell.Tab.0.left" timestamp="1610841541410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1520" height="468" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
+    <state width="1520" height="468" key="GridCell.Tab.0.left" timestamp="1610845620509">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="845" height="261" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="845" height="261" key="GridCell.Tab.0.right" timestamp="1610841541410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1520" height="468" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
+    <state width="1520" height="468" key="GridCell.Tab.0.right" timestamp="1610845620509">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="845" height="261" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="845" height="261" key="GridCell.Tab.1.bottom" timestamp="1610841541410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1520" height="468" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
+    <state width="1520" height="468" key="GridCell.Tab.1.bottom" timestamp="1610845620509">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="845" height="261" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="845" height="261" key="GridCell.Tab.1.center" timestamp="1610841541410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1520" height="468" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
+    <state width="1520" height="468" key="GridCell.Tab.1.center" timestamp="1610845620509">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="845" height="261" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="845" height="261" key="GridCell.Tab.1.left" timestamp="1610841541410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1520" height="468" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
+    <state width="1520" height="468" key="GridCell.Tab.1.left" timestamp="1610845620509">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="845" height="261" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="845" height="261" key="GridCell.Tab.1.right" timestamp="1610841541410">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1520" height="468" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
+    <state width="1520" height="468" key="GridCell.Tab.1.right" timestamp="1610845620509">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="845" height="261" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
+    <state width="1520" height="468" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1610777597800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1610777597800" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1610845552869">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1610845552869" />
     <state x="56" y="63" key="new project wizard" timestamp="1610783878521">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
