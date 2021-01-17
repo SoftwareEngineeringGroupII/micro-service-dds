@@ -11,7 +11,7 @@ public interface MessageMapper {
      * @param message
      * @return
      */
-    void sendMessage(Message message);
+    int sendMessage(Message message);
 
     /**
      * 查找消息
@@ -34,7 +34,7 @@ public interface MessageMapper {
      * 删除信息
      * @param messageID
      */
-    void deleteMessage(String messageID);
+    int deleteMessage(String messageID);
 
     /**
      * 保存信息
@@ -45,7 +45,7 @@ public interface MessageMapper {
     /**
      * 回复消息
      */
-    void setMessage(String messageId, @Param("title") String  title, @Param("content") String content);
+    int setMessage(String messageId, @Param("title") String  title, @Param("content") String content);
 
     Message findMessageBySendId(String stuNumber);
 

@@ -11,7 +11,7 @@ public interface RoleAuthorityMapper {
      * 向role中添加权限
      *
      */
-    void addAuthorityToRole(Map<String,String> map);
+    int addAuthorityToRole(Map<String,String> map);
 
     /**
      * 通过roleid，获取authorities
@@ -37,5 +37,5 @@ public interface RoleAuthorityMapper {
      * 删除角色所拥有的权限
      * @param roleId
      */
-    void deleteAllAuthorityByRole(String roleId);
+    int deleteAllAuthorityByRole(String roleId);
 }

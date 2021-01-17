@@ -11,13 +11,13 @@ public interface UserRoleMapper {
      * 给用户添加角色
      *
      */
-    void addRoleToUser(Map<String,String> map);
+    int addRoleToUser(Map<String,String> map);
 
     /**
      * 删除该用户的所有角色
      * @param clerkId
      */
-    void deleteAllRoleByUser(String clerkId);
+    int deleteAllRoleByUser(String clerkId);
 
     /**
      * 获取用户所拥有的权限

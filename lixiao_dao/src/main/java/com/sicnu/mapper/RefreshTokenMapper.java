@@ -6,7 +6,7 @@ public interface RefreshTokenMapper {
 
     int deleteAllByUserId(String clerkId);
 
-    void insertRefreshToken(Refreshtoken refreshtoken);
+    int insertRefreshToken(Refreshtoken refreshtoken);
 
     Refreshtoken findOneByTokenKey(String tokenKey);
 

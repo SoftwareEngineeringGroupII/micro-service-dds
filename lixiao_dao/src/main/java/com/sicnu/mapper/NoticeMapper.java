@@ -8,9 +8,9 @@ import java.util.List;
 
 public interface NoticeMapper {
 
-    void save(Notice notice);
+    int save(Notice notice);
 
-    void deleteNotice(String noticeID);
+    int deleteNotice(String noticeID);
 
     List<Notice> findSelfNotice(String ClerkId);
 
@@ -22,9 +22,9 @@ public interface NoticeMapper {
 
     List<Notice> findSelfNotice0(String ClerkId);
 
-    void setNoticePass(String noticeID);
+    int setNoticePass(String noticeID);
 
-    void setNoticeRefuse(String noticeID);
+    int setNoticeRefuse(String noticeID);
 
     List<Notice> viewAllByPeople();
 
@@ -40,9 +40,9 @@ public interface NoticeMapper {
 
     List<Notice> draftNotice();
 
-    void setTop(String noticeID);
+    int setTop(String noticeID);
 
-    void setUnTop(String noticeID);
+    int setUnTop(String noticeID);
 
     List<Notice> viewTopNotice();
 
