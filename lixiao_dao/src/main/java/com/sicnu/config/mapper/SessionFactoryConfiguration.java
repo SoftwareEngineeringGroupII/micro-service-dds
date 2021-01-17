@@ -1,4 +1,5 @@
 package com.sicnu.config.mapper;
+
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

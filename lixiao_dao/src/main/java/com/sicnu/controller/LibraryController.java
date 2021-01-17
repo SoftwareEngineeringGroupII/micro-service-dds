@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/libraryMapper")
+@RequestMapping("/LibraryMapper")
 public class LibraryController {
 
     @Resource

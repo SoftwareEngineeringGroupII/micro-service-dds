@@ -1,6 +1,6 @@
 package com.sicnu.utils;
 
-import com.sicnu.mapper.RoleAuthorityMapper;
+import com.sicnu.client.RoleAuthorityClient;
 import com.sicnu.pojo.Authorities;
 
 import java.util.Iterator;
@@ -8,7 +8,7 @@ import java.util.List;
 
 public class AuthorityTreeUtils {
 
-    public static void getChildrenToMenu(RoleAuthorityMapper roleAuthorityMapper, Authorities authorities) {
+    public static void getChildrenToMenu(RoleAuthorityClient roleAuthorityMapper, Authorities authorities) {
         List<Authorities> children = roleAuthorityMapper.findChildrenByParentId(authorities.getId());
         authorities.setChildren(children);
         for (Authorities child : children) {
@@ -16,7 +16,7 @@ public class AuthorityTreeUtils {
         }
     }
 
-    public static void getSpecialChildrenToMenu(RoleAuthorityMapper roleAuthorityMapper, Authorities authorities, List<String> authorityIds) {
+    public static void getSpecialChildrenToMenu(RoleAuthorityClient roleAuthorityMapper, Authorities authorities, List<String> authorityIds) {
         List<Authorities> children = roleAuthorityMapper.findChildrenByParentId(authorities.getId());
         Iterator<Authorities> iterator = children.iterator();
         while (iterator.hasNext()) {

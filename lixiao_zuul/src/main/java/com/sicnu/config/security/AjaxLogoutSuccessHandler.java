@@ -1,6 +1,7 @@
 package com.sicnu.config.security;
 
 import com.alibaba.fastjson.JSON;
+import com.sicnu.client.RefreshTokenClient;
 import com.sicnu.pojo.Clerk;
 import com.sicnu.pojo.Student;
 import com.sicnu.response.ResponseResult;
@@ -24,7 +25,7 @@ public class AjaxLogoutSuccessHandler implements LogoutSuccessHandler {
     private RedisUtils redisUtils;
 
     @Resource
-    private RefreshTokenMapper tokenMapper;
+    private RefreshTokenClient tokenMapper;
 
     @Override
     public void onLogoutSuccess(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Authentication authentication) throws IOException, ServletException {

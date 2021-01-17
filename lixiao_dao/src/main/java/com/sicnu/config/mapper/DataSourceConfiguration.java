@@ -13,7 +13,7 @@ import java.beans.PropertyVetoException;
  * @Date: 2020/9/23 10:29
  */
 @Configuration
-@MapperScan("com.market.scms.mapper")
+@MapperScan("com.sicnu.mapper")
 public class DataSourceConfiguration {
     
     @Value("${jdbc.driver}")

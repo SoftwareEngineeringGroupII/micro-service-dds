@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
-@RequestMapping("/checkCommitMapper")
+@RequestMapping("/CheckCommitMapper")
 public class CheckCommitController {
 
     @Resource

@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/eduMapper")
+@RequestMapping("/EduMapper")
 public class EduController {
 
     @Resource

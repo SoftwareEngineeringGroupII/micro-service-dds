@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 @RestController
-@RequestMapping("/formMapper")
+@RequestMapping("/FormMapper")
 public class FormController {
 
     @Resource
@@ -26,7 +26,7 @@ public class FormController {
         return formMapper.showFormByStudent(stuID);
     }
 
-    @PostMapping("/showFormByStudent")
+    @PostMapping("/showFormByProcess")
     public Form showFormByProcess(@RequestParam("stuID") String stuID){
         return formMapper.showFormByProcess(stuID);
     }

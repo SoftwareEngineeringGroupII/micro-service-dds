@@ -1,6 +1,8 @@
 package com.sicnu.mapper;
 
 import com.sicnu.pojo.Clerk;
+import org.apache.ibatis.annotations.Mapper;
+import org.springframework.web.bind.annotation.Mapping;
 
 import java.util.List;
 
@@ -11,7 +13,7 @@ public interface AdminMapper {
      * @param clerk
      * @return
      */
-    int addClerk(Clerk clerk);
+    void addClerk(Clerk clerk);
 
     /**
      * 查找所有的clerk
@@ -24,7 +26,7 @@ public interface AdminMapper {
      * 删除clerk
      * @param clerkId
      */
-    int deleteClerk(String clerkId);
+    void deleteClerk(String clerkId);
 
 
 }

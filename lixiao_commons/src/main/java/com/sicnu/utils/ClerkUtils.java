@@ -1,7 +1,6 @@
 package com.sicnu.utils;
 
 import com.sicnu.pojo.Clerk;
-import com.digitaldeparturesystem.service.ISectorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -14,8 +13,8 @@ import java.util.List;
 //创建会话，获取当前登录对象
 @Component
 public class ClerkUtils {
-	@Autowired
-	private ISectorService sectorService;
+//	@Autowired
+//	private ISectorService sectorService;
 
 	/**
 	 * 获取当前登录者的信息
@@ -23,8 +22,10 @@ public class ClerkUtils {
 	 */
 	public Clerk getClerk() {
 		//获取当前用户的用户名
-		String clerkAccount = SecurityContextHolder.getContext().getAuthentication().getName();
-		return sectorService.findClerkByAccount(clerkAccount);
+		//TODO：恢复
+//		String clerkAccount = SecurityContextHolder.getContext().getAuthentication().getName();
+//		return sectorService.findClerkByAccount(clerkAccount);
+		return null;
 	}
 
 	/**

@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/eduMapper")
+@RequestMapping("/FinanceMapper")
 public class FinanceController {
 
     @Resource

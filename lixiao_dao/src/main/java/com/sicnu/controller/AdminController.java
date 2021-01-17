@@ -8,7 +8,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 @RestController
-@RequestMapping("/adminMapper")
+@RequestMapping("/AdminMapper")
 public class AdminController {
 
     @Resource
@@ -19,8 +19,8 @@ public class AdminController {
      * @return
      */
     @PostMapping("/addClerk")
-    public int addClerk(@RequestParam("clerk") Clerk clerk){
-        return adminMapper.addClerk(clerk);
+    public void addClerk(@RequestParam("clerk") Clerk clerk){
+        adminMapper.addClerk(clerk);
     }
 
     /**
@@ -38,7 +38,7 @@ public class AdminController {
      * @param clerkId
      */
     @PostMapping("/deleteClerk")
-    public int deleteClerk(@RequestParam("clerkId") String clerkId){
-        return adminMapper.deleteClerk(clerkId);
+    public void deleteClerk(@RequestParam("clerkId") String clerkId){
+        adminMapper.deleteClerk(clerkId);
     }
 }

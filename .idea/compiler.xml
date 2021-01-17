@@ -6,22 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lixiao_zuul" />
-        <module name="lixiao_finance" />
-        <module name="lixiao_dao" />
         <module name="lixiao_stu" />
-        <module name="lixiao_eureka" />
-        <module name="lixiao_commons" />
-        <module name="lixiaosys_card" />
-        <module name="lixiaosys" />
-        <module name="lixiao_consumer" />
-        <module name="lixiao_dorm" />
         <module name="lixiao_edu" />
-        <module name="lixiao_library" />
+        <module name="lixiaosys_card" />
+        <module name="lixiao_commons" />
+        <module name="lixiaosys" />
+        <module name="lixiao_finance" />
         <module name="lixiao_notice" />
+        <module name="lixiao_library" />
+        <module name="lixiao_consumer" />
+        <module name="lixiao_dao" />
+        <module name="lixiao_dorm" />
+        <module name="lixiao_card" />
+        <module name="lixiao_eureka" />
+        <module name="lixiao_zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="lixiao_card" target="1.8" />
       <module name="lixiao_commons" target="1.8" />
       <module name="lixiao_consumer" target="1.8" />
       <module name="lixiao_dao" target="1.8" />
@@ -39,6 +41,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lixiao_card" options="-parameters" />
       <module name="lixiao_commons" options="-parameters" />
       <module name="lixiao_consumer" options="-parameters" />
       <module name="lixiao_dao" options="-parameters" />

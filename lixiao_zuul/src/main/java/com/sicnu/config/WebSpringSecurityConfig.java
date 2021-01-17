@@ -1,8 +1,6 @@
 package com.sicnu.config;
 
 import com.sicnu.config.security.*;
-import com.sicnu.service.ISectorService;
-import com.sicnu.service.IStudentService;
 import com.sicnu.utils.Constants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -44,11 +42,12 @@ public class WebSpringSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     AjaxAccessDeniedHandler accessDeniedHandler;    // 无权访问返回的 JSON 格式数据给前端（否则为 403 html 页面）
 
-    @Autowired
-    ISectorService userDetailsService; // 自定义user
-
-    @Autowired
-    IStudentService studentService; // 自定义user
+    //TODO:恢复
+//    @Autowired
+//    ISectorService userDetailsService; // 自定义user
+//
+//    @Autowired
+//    IStudentService studentService; // 自定义user
 
     @Resource
     private BCryptPasswordEncoder bCryptPasswordEncoder;
@@ -56,8 +55,9 @@ public class WebSpringSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         // 加入自定义的安全认证
-        auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder);
-        auth.userDetailsService(studentService).passwordEncoder(bCryptPasswordEncoder);
+        //TODO:恢复
+//        auth.userDetailsService(userDetailsService).passwordEncoder(bCryptPasswordEncoder);
+//        auth.userDetailsService(studentService).passwordEncoder(bCryptPasswordEncoder);
     }
 
     @Override
@@ -98,9 +98,10 @@ public class WebSpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .logoutSuccessHandler(logoutSuccessHandler)
                 .permitAll();
 
+        //TODO:恢复
         // 记住我
-        http.rememberMe().rememberMeParameter("remember-me")
-                .userDetailsService(userDetailsService).tokenValiditySeconds(300);
+//        http.rememberMe().rememberMeParameter("remember-me")
+//                .userDetailsService(userDetailsService).tokenValiditySeconds(300);
 
         http.exceptionHandling().accessDeniedHandler(accessDeniedHandler); // 无权访问 JSON 格式的数据
 

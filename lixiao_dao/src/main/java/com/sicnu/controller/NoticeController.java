@@ -3,7 +3,6 @@ package com.sicnu.controller;
 import com.sicnu.mapper.NoticeMapper;
 import com.sicnu.pojo.Notice;
 import feign.Param;
-import org.checkerframework.checker.units.qual.C;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

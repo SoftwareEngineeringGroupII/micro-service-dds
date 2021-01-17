@@ -1,120 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fc9db98-76f9-457f-ab9d-d49f148a4a02" name="Default Changelist" comment="">
-<<<<<<< HEAD
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_annotation_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_base_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_afterturn_easypoi_web_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
->>>>>>> 1f6370f73e4ff78fe74f5cbda8491f47b2e1236e
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_6_RELEASE.xml" afterDir="false" />
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/WebSpringSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxLogoutSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/ISectorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/IStudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/SectorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/utils/IpUtil.java" afterDir="false" />
+    <list default="true" id="38341732-4b1c-456f-a8d2-63b0face87c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_58_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_58_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_58_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_58_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_58_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_58_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/client/RefreshTokenClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/client/RoleAuthorityClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/client/UserRoleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/client/error/UserRoleError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/client/RefreshTokenClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/client/RoleAuthorityClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/client/SectorClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/client/UserRoleClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/client/error/UserRoleError.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lixiao_card/lixiao_card.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_card/lixiao_card.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_card/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_card/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/target/classes/com/sicnu/LixiaosysCardApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/target/classes/com/sicnu/controller/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/target/classes/com/sicnu/response/ResponseResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/target/classes/com/sicnu/response/ResponseStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/target/classes/com/sicnu/service/ICardService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/target/classes/com/sicnu/service/Impl/CardServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_card/target/test-classes/com/sicnu/LixiaosysCardApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/lixiao_commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_commons/lixiao_commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/LixiaoCommonsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/LixiaoCommonsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/WebSpringSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxAuthenticationFailureHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxAuthenticationSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxLogoutSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/AuthorityTreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/AuthorityTreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/ClerkUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/ClerkUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_commons/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_commons/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_consumer/target/classes/META-INF/lixiao_consumer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_consumer/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/lixiao_dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/lixiao_dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/LixiaoDaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/LixiaoDaoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/aspect/TransactionAdviceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/config/mapper/DataSourceConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/config/mapper/DataSourceConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/config/mapper/SessionFactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/config/mapper/SessionFactoryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/AuthoritiesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/AuthoritiesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/CheckCommitController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/CheckCommitController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/DetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/DetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/DormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/DormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/EduController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/EduController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/FinanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/FinanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/FormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/FormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/LibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/NoticeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/java/com/sicnu/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dao/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dao/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_dorm/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_dorm/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_edu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_edu/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_finance/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_finance/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_library/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_library/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_notice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_notice/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_stu/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_stu/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lixiao_zuul/lixiao_zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/lixiao_zuul.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lixiao_zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/pom.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/lixiao_commons.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/aspect/TransactionAdviceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/AsyncConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/ElasticSearchClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/MyMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/Swagger2Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/WebSpringSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/mapper/DataSourceConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/mapper/SessionFactoryConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxAuthenticationFailureHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxAuthenticationSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/config/security/AjaxLogoutSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Authorities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/CardInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Checkcommit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Clerk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Dorm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/DormInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/DormPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Edu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/EduInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Finance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/FinanceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Lib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/LibInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/LogSearchCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Logistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/PasswordBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Processmanage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Refreshtoken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/StuBasicInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/response/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/response/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/AuthorityTreeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/ClaimsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/ClerkUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/CookieUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/IpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/RedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/TextUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu/utils/TokenUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lixiao_card/lixiao_card.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_card/lixiao_card.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lixiao_card/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_card/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/WebSpringSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/WebSpringSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAuthenticationSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxAuthenticationSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/config/security/AjaxLogoutSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/ISectorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/PermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/SectorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl/StudentServiceImpl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lixiao_zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lixiao_zuul/target/classes/com/sicnu/filter/AccessFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/lixiao_zuul/target/classes/com/sicnu/filter/AccessFilter.class" afterDir="false" />
->>>>>>> 1f6370f73e4ff78fe74f5cbda8491f47b2e1236e
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/target/classes/com/sicnu/response/ResponseResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lixiao_zuul/target/classes/com/sicnu/response/ResponseStatus.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,68 +106,36 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="localRepository" value="E:\mvn_repository" />
-        <option name="mavenHome" value="E:/Javaweb_resource/maven/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="E:\Javaweb_resource\maven\apache-maven-3.6.3\conf\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1n8WJpAX7AooTANrpwTN8La6ga3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu/service/impl" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lixiao_zuul/src/main/java/com/sicnu" />
     <property name="project.structure.last.edited" value="Modules" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lixiao_commons/src/main/java/com/sicnu" />
-    <property name="project.structure.last.edited" value="Project" />
->>>>>>> 1f6370f73e4ff78fe74f5cbda8491f47b2e1236e
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sicnu.config.mapper" />
       <recent name="com.sicnu.aspect" />
-      <recent name="com.sicnu.utils" />
-      <recent name="com.sicnu.service" />
-      <recent name="com.sicnu.config" />
+      <recent name="com.sicnu.config.aspect" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-<<<<<<< HEAD
-      <recent name="F:\SE\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\service\impl" />
-      <recent name="F:\SE\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\service" />
-      <recent name="F:\SE\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\config" />
-=======
-      <recent name="E:\springboot\lixiaosys\lixiao_commons\src\main\java\com\sicnu" />
->>>>>>> 1f6370f73e4ff78fe74f5cbda8491f47b2e1236e
-      <recent name="E:\springboot\lixiaosys\lixiao_zuul\src\main\java\com\sicnu\response" />
-      <recent name="E:\springboot\lixiaosys\lixiao_card\src\main\java\com\sicnu\response" />
+      <recent name="F:\SE\lixiaosys\lixiao_zuul\src\main\java\com\sicnu" />
+      <recent name="F:\SE\lixiaosys\lixiao_dao\src\main\java\com\sicnu" />
+      <recent name="F:\SE\lixiaosys\lixiao_dao\src\main\java\com\sicnu\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,13 +223,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LixiaosysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="lixiaosys" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaosysApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LixiaosysCardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="lixiao_card" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sicnu.LixiaosysCardApplication" />
@@ -288,176 +231,73 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="9fc9db98-76f9-457f-ab9d-d49f148a4a02" name="Default Changelist" comment="" />
-      <created>1610772129001</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1610772129001</updated>
-      <workItem from="1610772133688" duration="30198000" />
-      <workItem from="1610814017228" duration="83000" />
-      <workItem from="1610838076413" duration="3461000" />
-      <workItem from="1610844010043" duration="560000" />
-      <workItem from="1610844930588" duration="4527000" />
-    </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="99" key="#Project_Structure" timestamp="1610845886171">
+    <state x="-1240" y="18" key="#Project_Structure" timestamp="1610885219202">
+      <screen x="-1440" y="9" width="1440" height="870" />
+    </state>
+    <state x="-1240" y="18" key="#Project_Structure/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610885219202" />
+    <state x="600" y="229" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1610892026692">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="440" y="99" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1610845886171" />
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser" timestamp="1610840893681">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="-990" y="199" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610877003814" />
+    <state x="600" y="229" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1610892026692" />
+    <state x="-1070" y="367" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610886648359">
+      <screen x="-1440" y="9" width="1440" height="870" />
     </state>
-    <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1610840893681" />
-    <state x="430" y="208" width="421" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610848713155">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="430" y="208" width="421" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1610848713155" />
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610780564250">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="395" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1610780564250" />
-<<<<<<< HEAD
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1610845552177">
+    <state x="-1070" y="367" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610886648359" />
+    <state width="1367" height="130" key="GridCell.Tab.0.bottom" timestamp="1610894043894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1610845552177" />
-    <state width="1520" height="468" key="GridCell.Tab.0.bottom" timestamp="1610845620509">
+    <state width="1176" height="315" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890701251" />
+    <state width="1367" height="130" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1610894043894" />
+    <state width="1367" height="130" key="GridCell.Tab.0.center" timestamp="1610894043894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="845" height="261" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="1520" height="468" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
-    <state width="1520" height="468" key="GridCell.Tab.0.center" timestamp="1610845620509">
+    <state width="1176" height="315" key="GridCell.Tab.0.center/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890701251" />
+    <state width="1367" height="130" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1610894043894" />
+    <state width="1367" height="130" key="GridCell.Tab.0.left" timestamp="1610894043894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="845" height="261" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="1520" height="468" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
-    <state width="1520" height="468" key="GridCell.Tab.0.left" timestamp="1610845620509">
+    <state width="1176" height="315" key="GridCell.Tab.0.left/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890701251" />
+    <state width="1367" height="130" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1610894043894" />
+    <state width="1367" height="130" key="GridCell.Tab.0.right" timestamp="1610894043894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="845" height="261" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="1520" height="468" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
-    <state width="1520" height="468" key="GridCell.Tab.0.right" timestamp="1610845620509">
+    <state width="1176" height="315" key="GridCell.Tab.0.right/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890701251" />
+    <state width="1367" height="130" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1610894043894" />
+    <state width="1367" height="130" key="GridCell.Tab.1.bottom" timestamp="1610894043894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="845" height="261" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="1520" height="468" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
-    <state width="1520" height="468" key="GridCell.Tab.1.bottom" timestamp="1610845620509">
+    <state width="1176" height="315" key="GridCell.Tab.1.bottom/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890701251" />
+    <state width="1367" height="130" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1610894043894" />
+    <state width="1367" height="130" key="GridCell.Tab.1.center" timestamp="1610894043894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="845" height="261" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="1520" height="468" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
-    <state width="1520" height="468" key="GridCell.Tab.1.center" timestamp="1610845620509">
+    <state width="1176" height="315" key="GridCell.Tab.1.center/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890701251" />
+    <state width="1367" height="130" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1610894043894" />
+    <state width="1367" height="130" key="GridCell.Tab.1.left" timestamp="1610894043894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="845" height="261" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="1520" height="468" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
-    <state width="1520" height="468" key="GridCell.Tab.1.left" timestamp="1610845620509">
+    <state width="1176" height="315" key="GridCell.Tab.1.left/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890701251" />
+    <state width="1367" height="130" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1610894043894" />
+    <state width="1367" height="130" key="GridCell.Tab.1.right" timestamp="1610894043894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="845" height="261" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="1520" height="468" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
-    <state width="1520" height="468" key="GridCell.Tab.1.right" timestamp="1610845620509">
+    <state width="1176" height="315" key="GridCell.Tab.1.right/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890701251" />
+    <state width="1367" height="130" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1610894043894" />
+    <state x="563" y="202" width="795" height="647" key="find.popup" timestamp="1610893477786">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="845" height="261" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610841541410" />
-    <state width="1520" height="468" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1610845620509" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1610777597800">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1610777597800" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1610845552869">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1610845552869" />
-    <state x="56" y="63" key="new project wizard" timestamp="1610783878521">
-=======
-    <state width="845" height="261" key="GridCell.Tab.0.bottom" timestamp="1610846989255">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="261" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610846989255" />
-    <state width="845" height="261" key="GridCell.Tab.0.center" timestamp="1610846989254">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="261" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1610846989254" />
-    <state width="845" height="261" key="GridCell.Tab.0.left" timestamp="1610846989254">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="261" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1610846989254" />
-    <state width="845" height="261" key="GridCell.Tab.0.right" timestamp="1610846989255">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="261" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1610846989255" />
-    <state width="845" height="261" key="GridCell.Tab.1.bottom" timestamp="1610846989256">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="261" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1610846989256" />
-    <state width="845" height="261" key="GridCell.Tab.1.center" timestamp="1610846989255">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="261" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1610846989255" />
-    <state width="845" height="261" key="GridCell.Tab.1.left" timestamp="1610846989255">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="261" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1610846989255" />
-    <state width="845" height="261" key="GridCell.Tab.1.right" timestamp="1610846989256">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="845" height="261" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1610846989256" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1610850026479">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1610850026479" />
-    <state x="56" y="63" key="new project wizard" timestamp="1610848417747">
->>>>>>> 1f6370f73e4ff78fe74f5cbda8491f47b2e1236e
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="56" y="63" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1610848417747" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1610805908717">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1610805908717" />
+    <state x="-1018" y="176" width="596" height="536" key="find.popup/0.0.1920.1050/-1440.9.1440.870@-1440.9.1440.870" timestamp="1610890468915" />
+    <state x="563" y="202" width="795" height="647" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1610893477786" />
   </component>
 </project>

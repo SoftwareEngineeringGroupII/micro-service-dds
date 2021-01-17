@@ -1,13 +1,13 @@
 package com.sicnu.config.security;
 
 import com.alibaba.fastjson.JSON;
+import com.sicnu.client.RoleAuthorityClient;
+import com.sicnu.client.UserRoleClient;
 import com.sicnu.pojo.Authorities;
 import com.sicnu.pojo.Clerk;
 import com.sicnu.pojo.Role;
 import com.sicnu.pojo.Student;
 import com.sicnu.response.ResponseResult;
-import com.sicnu.service.ISectorService;
-import com.sicnu.service.IStudentService;
 import com.sicnu.utils.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,17 +28,18 @@ import java.util.Set;
 @Component
 public class AjaxAuthenticationSuccessHandler implements AuthenticationSuccessHandler {
 
-    @Autowired
-    private ISectorService sectorService;
-
-    @Autowired
-    private IStudentService studentService;
-
-    @Resource
-    private UserRoleMapper userRoleMapper;
+    //TODO:恢复
+//    @Autowired
+//    private ISectorService sectorService;
+//
+//    @Autowired
+//    private IStudentService studentService;
 
     @Resource
-    private RoleAuthorityMapper roleAuthorityMapper;
+    private UserRoleClient userRoleMapper;
+
+    @Resource
+    private RoleAuthorityClient roleAuthorityMapper;
 
     @Autowired
     private RedisUtils redisUtils;
@@ -90,7 +91,8 @@ public class AjaxAuthenticationSuccessHandler implements AuthenticationSuccessHa
             //或者更换了用户
             if (clerkFromToken == null||clerk.getClerkID() != clerkFromToken.getClerkID()){
                 //删除旧的refreshToken，创建新的refreshToken
-                token = sectorService.createToken(httpServletResponse, clerk);
+                //TODO:恢复
+//                token = sectorService.createToken(httpServletResponse, clerk);
             }
             //解决不返回token的问题
             if ("".equals(token)){
@@ -112,7 +114,8 @@ public class AjaxAuthenticationSuccessHandler implements AuthenticationSuccessHa
             //如果这里解析不出来，说明用户的token过期了，那么根据refreshToken，再给用户创建一个Token
             if (studentFromToken == null||student.getStuId() != studentFromToken.getStuId()){
                 //删除旧的refreshToken，创建新的refreshToken
-                token = studentService.createToken(httpServletResponse, student);
+                //TODO:恢复
+//                token = studentService.createToken(httpServletResponse, student);
             }
             //解决不返回token的问题
             if ("".equals(token)){
